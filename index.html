@@ -1,31 +1,78 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>エクスガジェット | Exgadget</title>
-<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:0 auto;padding:2rem 1rem;line-height:1.7}a{color:#0b5cad}.note{background:#fff8e1;border:1px dashed #d9a400;padding:.75rem 1rem}</style>
+<title>エクスガジェット | エクスガジェット</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>エクスガジェット</h1>
-<p>ガジェットを作る個人事業です。商品の紹介と取扱説明書をここにまとめます。</p>
+<header class="site"><div class="wrap">
+<a href="index.html"><img src="assets/img/logo.png" alt="エクスガジェット"></a>
+<nav><a href="index.html#works">作品</a><a href="index.html#profile">プロフィール</a><a href="manuals/index.html">取扱説明書</a></nav>
+</div></header>
 
-<h2>Motion Cell</h2>
-<p>スマートキーに入れて電源を制御する、リレーアタック防止装置。静置すると約30秒で電源OFF、持つ（加速度0.1G）と電源ON。電波遮断ポーチの出し入れは不要です。</p>
+<div class="hero">
+<img src="assets/img/logo.png" alt="エクスガジェット">
+<p class="tag">思いついたら、作る。</p>
+<p class="lead">2018年から個人でガジェットを作っています。犬の散歩検知、車の防犯装置、光る魔法陣……。これまでに作ったものを年表で紹介します。</p>
+</div>
+<main>
+<h2 class="sec" id="works">作品年表</h2>
+<div class="grid">
+<div class="card">
+<a href="works/osanpo-go.html"><img src="assets/img/osanpo-logo.jpg" alt="おさんぽGo！"></a>
+<div class="body"><span class="year">2018</span>
+<h3><a href="works/osanpo-go.html">おさんぽGo！</a></h3><p>犬の散歩に行ったかどうかを検知して通知する、最初のガジェット。</p></div></div>
+<div class="card">
+<a href="works/takarabako.html"><img src="assets/img/chest-b.jpg" alt="宝箱型ミュージックプレイヤー"></a>
+<div class="body"><span class="year">2018</span>
+<h3><a href="works/takarabako.html">宝箱型ミュージックプレイヤー</a></h3><p>開けるとファンファーレが鳴る宝箱。箱から手作りしました。</p></div></div>
+<div class="card">
+<a href="works/mahojin.html"><img src="assets/img/mahojin-a.jpg" alt="魔法陣"></a>
+<div class="body"><span class="year">2019</span>
+<h3><a href="works/mahojin.html">魔法陣</a></h3><p>ろうそくを6本そろえると、魔法陣が青く光り出します。</p></div></div>
+<div class="card">
+<a href="works/motion-cell.html"><img src="assets/img/hatsumei-9.jpg" alt="Motion Cell"></a>
+<div class="body"><span class="year">2020</span>
+<h3><a href="works/motion-cell.html">Motion Cell</a></h3><p>スマートキーの電波を止めて、リレーアタックから車を守る装置。</p></div></div>
+<div class="card">
+<a href="works/slime-flash.html"><img src="assets/img/slime-card.jpg" alt="スライムフラッシュ"></a>
+<div class="body"><span class="year">2021</span>
+<h3><a href="works/slime-flash.html">スライムフラッシュ</a></h3><p>8時間後に点滅して、傘立ての中で自分の傘を教えてくれます。</p></div></div>
+<div class="card">
+<a href="works/reflow.html"><img src="assets/img/reflow-6a.jpg" alt="リフロー炉（自作）"></a>
+<div class="body"><span class="year">2021</span>
+<h3><a href="works/reflow.html">リフロー炉（自作）</a></h3><p>基板の試作用に、オーブントースターを改造して作った道具。</p></div></div>
+<div class="card">
+<a href="works/okusuri-memo.html"><img src="assets/img/okusuri-2.jpg" alt="お薬メモ"></a>
+<div class="body"><span class="year">2022</span>
+<h3><a href="works/okusuri-memo.html">お薬メモ</a></h3><p>薬を飲んだ日時をダイアルで記録する、電池のいらないメモ。</p></div></div>
+<div class="card">
+<a href="works/arcade.html"><img src="assets/img/arcade-build-6.jpg" alt="ミニチュアアーケード筐体"></a>
+<div class="body"><span class="year">2024</span>
+<h3><a href="works/arcade.html">ミニチュアアーケード筐体</a></h3><p>ガチャのミニ筐体に基板と液晶を入れて、本当に遊べるように改造。</p></div></div>
+<div class="card">
+<a href="works/led-panel.html"><img src="assets/img/led-a.jpg" alt="LEDパネル"></a>
+<div class="body"><span class="year">2026</span>
+<h3><a href="works/led-panel.html">LEDパネル</a></h3><p>SDカードに入れたドット絵を、アニメーションで表示するパネル。</p></div></div>
+<div class="card"><div class="body"><span class="year dev">開発中</span>
+<h3>ネココーラス</h3><p>どんな音楽も「ニャー」で演奏する装置。現在開発中です。</p></div></div>
+</div>
+<h2 class="sec" id="profile">プロフィール</h2>
+<div class="profile">
+<p>山口佳津紀（屋号：エクスガジェット）。個人で電子工作のガジェットを企画・設計・製造しています。基板のはんだ付けから電極のメッキ、金型の削り出しまで、できることは全部自分でやるのがモットーです。</p>
 <ul>
-<li>対応電池：CR2032型のスマートキーのみ（CR2025・CR1632は不可）</li>
-<li>価格：8,800円（BASE調べ、2026-10-25確認）</li>
-<li>内容：本体×1、テスト用電池（CR2016）×1、電池ケース×1、テスト用LED×1</li>
-<li>Makuakeでクラウドファンディングに成功した製品です。海外への販売・輸出はできません。</li>
+<li>2018年 メイカーズカフェで「おさんぽGo！」を発表、展示会に出展</li>
+<li>2019年 Maker Faireに「魔法陣」を出展</li>
+<li>2022年 発明協会の発明コンテストで「リレーアタック防止装置」が佳作、「お薬メモ」が奨励賞</li>
 </ul>
-<p class="note"><strong>現在、販売は休止中です（SOLD OUT）。</strong>再入荷・再販の際はこのページでお知らせします。商品の詳細はBASEの商品ページをご覧ください。</p>
-<p><a href="https://exgadjet.base.shop/items/41675367">BASEの商品ページを見る</a></p>
-<!-- 注意：リンク先の exgadjet はBASE登録時のショップID（綴りはそのまま）。exgadget に「修正」するとリンクが壊れる。将来 shop.exgadget.net 経由に切り替える場合はDNS移行時に設定する -->
+</div>
+</main>
 
-<h2>取扱説明書</h2>
-<p><a href="manuals/">取扱説明書一覧へ</a> — Motion Cellの説明書はこちらに掲載しています。</p>
-
-<h2>お問い合わせ</h2>
-<p>製品のサポートについては、<a href="manuals/motion-cell.html">取扱説明書</a>末尾の連絡先（サポートメール）をご覧ください。ご購入に関するお問い合わせはBASEショップからお願いします。</p>
+<footer class="site">
+<p>お問い合わせ: support@exgadget.net</p>
+<p>© 2026 Exgadget</p>
+</footer>
 </body>
 </html>

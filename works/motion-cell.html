@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Motion Cell | エクスガジェット</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a href="../index.html"><img src="../assets/img/logo.png" alt="エクスガジェット"></a>
+<nav><a href="../index.html#works">作品</a><a href="../index.html#profile">プロフィール</a><a href="../manuals/index.html">取扱説明書</a></nav>
+</div></header>
+
+<main><article>
+<span class="year">2020</span>
+<h1>Motion Cell</h1>
+<p class="lead">スマートキーにセットするだけで、リレーアタックから車を守る防犯装置です。かつて販売していた作品で、現在は販売を終了しています。</p>
+
+<h2>仕組み</h2>
+<p>リレーアタックは、スマートキーから出る微弱な電波を拾って車の鍵を開けてしまう手口です。ならば、使っていないときはキーの電源そのものを切ってしまえばいい。そう考えて、コイン型電池CR2032とまったく同じ大きさ（厚さ3.2mm）の装置を作りました。</p>
+<figure><img src="../assets/img/hatsumei-4.jpg" alt="リレーアタックの手口"><figcaption>リレーアタックの手口</figcaption></figure>
+<p>スマートキーの電池と入れ替えてセットすると、振動検知が追加されます。キーを持ち歩いている間は電源ONでいつも通り使えて、置いてから30秒たつと自動で電源が切れて電波が出なくなります。電波遮断ポーチに出し入れする面倒がありません。</p>
+<div class="figrow">
+<figure><img src="../assets/img/hatsumei-13.jpg" alt="携帯すると電源ON"><figcaption>携帯すると電源ON</figcaption></figure>
+<figure><img src="../assets/img/hatsumei-14.jpg" alt="断面図。厚さ3.2mm、幅20mm"><figcaption>断面図。厚さ3.2mm、幅20mm</figcaption></figure>
+</div>
+<figure class="narrow"><img src="../assets/img/hatsumei-9.jpg" alt="Motion Cellの基板"><figcaption>Motion Cellの基板</figcaption></figure>
+<table class="spec">
+<tr><th>サイズ</th><td>CR2032と同サイズ（厚さ3.2mm）</td></tr>
+<tr><th>動作</th><td>振動を検知して電源ON / 静止30秒で電源OFF</td></tr>
+<tr><th>対応</th><td>CR2032使用のスマートキー</td></tr>
+<tr><th>実績</th><td>2020年11月 クラウドファンディング（Makuake）開始、特許取得、2022年 発明協会 発明コンテスト佳作</td></tr>
+</table>
+<div class="note">Motion Cellは過去の作品です。特許の権利期間が終了したこともあり、現在は販売していません。お使いいただいた方のために、<a href="../manuals/motion-cell.html">取扱説明書</a>は公開を続けています。</div>
+<h2>製作工程</h2>
+<p>量産といっても個人の規模なので、工程のほとんどを自宅で内製しました。</p>
+<h3>電極の切り出し</h3>
+<p>電池の接点になる電極は、CNCで銅板から切り出しました。</p>
+<figure><video controls preload="metadata" playsinline poster="../assets/img/electrode-a.jpg" src="../assets/video/electrode.mp4"></video><figcaption>CNCで電極を切り出す様子</figcaption></figure>
+<h3>折り曲げ金型</h3>
+<p>切り出した電極を折り曲げる金型も、アルミを削り出して自作しました。</p>
+<figure><img src="../assets/img/mc-die.jpg" alt="電極の折り曲げ金型を削り出し中"><figcaption>電極の折り曲げ金型を削り出し中</figcaption></figure>
+<h3>メッキ処理</h3>
+<p>電極にはニッケルメッキのあと金メッキを施しました。卓上の小さな浴槽で、1個ずつ手作業です。</p>
+<div class="figrow">
+<figure><img src="../assets/img/plating-95.jpg" alt="メッキの作業風景"><figcaption>メッキの作業風景</figcaption></figure>
+<figure><img src="../assets/img/plating-4a.jpg" alt="すすぎの工程"><figcaption>すすぎの工程</figcaption></figure>
+</div>
+<figure><video controls preload="metadata" playsinline poster="../assets/img/plating-95.jpg" src="../assets/video/plating.mp4"></video><figcaption>メッキ処理の様子</figcaption></figure>
+<h3>基板とプログラム</h3>
+<p>基板のはんだ付けは自作の<a href="reflow.html">リフロー炉</a>で、プログラムの書き込みはポゴピンを使った自作治具で行いました。</p>
+<figure><img src="../assets/img/mc-jig.jpg" alt="プログラム書き込み用治具"><figcaption>プログラム書き込み用治具</figcaption></figure>
+
+<p class="back"><a href="../index.html#works">← 作品年表に戻る</a></p>
+</article></main>
+
+<footer class="site">
+<p>お問い合わせ: support@exgadget.net</p>
+<p>© 2026 Exgadget</p>
+</footer>
+</body>
+</html>

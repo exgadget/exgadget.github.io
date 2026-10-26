@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>リフロー炉（自作） | エクスガジェット</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a href="../index.html"><img src="../assets/img/logo.png" alt="エクスガジェット"></a>
+<nav><a href="../index.html#works">作品</a><a href="../index.html#profile">プロフィール</a><a href="../manuals/index.html">取扱説明書</a></nav>
+</div></header>
+
+<main><article>
+<span class="year">2021</span>
+<h1>リフロー炉（自作）</h1>
+<p class="lead">リレーアタック防止装置の基板を試作するために、オーブントースターを改造して作ったリフロー炉です。</p>
+
+<h2>道具も自作します</h2>
+<p>基板に部品を載せて熱で一気にはんだ付けする装置がリフロー炉です。買うと高いので、日立のオーブントースターHTO-A2を改造して作りました。</p>
+<figure><img src="../assets/img/reflow-6a.jpg" alt="改造したオーブントースター。上に制御回路を載せています"><figcaption>改造したオーブントースター。上に制御回路を載せています</figcaption></figure>
+<h2>制御まわり</h2>
+<p>Arduino Nanoと熱電対モジュールで温度を測り、OLEDに現在の温度と経過時間を表示します。温度プロファイルはステージ管理で、表示は「Temp=122.5/150、Time=101/120、Stage:1」のような形です。ヒーターの制御はSSRで行っています。</p>
+<div class="figrow">
+<figure><img src="../assets/img/reflow-screen.jpg" alt="制御画面の拡大"><figcaption>制御画面の拡大</figcaption></figure>
+<figure><img src="../assets/img/reflow-f5.jpg" alt="Arduino Nanoと熱電対モジュール"><figcaption>Arduino Nanoと熱電対モジュール</figcaption></figure>
+</div>
+
+<p class="back"><a href="../index.html#works">← 作品年表に戻る</a></p>
+</article></main>
+
+<footer class="site">
+<p>お問い合わせ: support@exgadget.net</p>
+<p>© 2026 Exgadget</p>
+</footer>
+</body>
+</html>

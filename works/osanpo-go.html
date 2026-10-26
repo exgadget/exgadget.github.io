@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>おさんぽGo！ | エクスガジェット</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a href="../index.html"><img src="../assets/img/logo.png" alt="エクスガジェット"></a>
+<nav><a href="../index.html#works">作品</a><a href="../index.html#profile">プロフィール</a><a href="../manuals/index.html">取扱説明書</a></nav>
+</div></header>
+
+<main><article>
+<span class="year">2018</span>
+<h1>おさんぽGo！</h1>
+<p class="lead">一番最初に作ったガジェットです。犬のリードに付けて、散歩に行くとメールやLINEで知らせてくれます。</p>
+
+<h2>作った理由</h2>
+<p>愛犬リリーの散歩に、息子が「行った」とウソをついているらしい。でも、行ったかどうかを確認する手段がありません。そこで、散歩を検知して通知してくれる装置を作ることにしました。ついでに、不正検出機能も付けました。</p>
+<figure><img src="../assets/img/osanpo-logo.jpg" alt="おさんぽGo！のロゴ"><figcaption>おさんぽGo！のロゴ</figcaption></figure>
+<h2>仕組み</h2>
+<p>リードを入れるバッグなどに取り付けます。ESP32とGセンサーで歩行を検出し、WiFi経由で「さんぽに行ってきたよ」と通知します。あわせて散歩の情報を記録し、1週間のまとめも送ってくれます。</p>
+<table class="spec">
+<tr><th>マイコン</th><td>ESP32（Arduino）</td></tr>
+<tr><th>センサー</th><td>Gセンサー（歩行検知）</td></tr>
+<tr><th>通知</th><td>メール / LINE通知、週次レポート</td></tr>
+<tr><th>その他</th><td>不正検出機能付き</td></tr>
+</table>
+<h2>発表</h2>
+<p>メイカーズカフェで発表して、ハード屋さんのアドバイスを募集しました。2018年には展示会にも出展しています。</p>
+
+<p class="back"><a href="../index.html#works">← 作品年表に戻る</a></p>
+</article></main>
+
+<footer class="site">
+<p>お問い合わせ: support@exgadget.net</p>
+<p>© 2026 Exgadget</p>
+</footer>
+</body>
+</html>
