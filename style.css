@@ -39,6 +39,7 @@ figure figcaption{color:var(--sub);font-size:13px;margin-top:6px;text-align:cent
 .figrow{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 @media(max-width:640px){.figrow{grid-template-columns:1fr}}
 video{width:100%;border-radius:10px;display:block;background:#000}
+iframe.yt{width:100%;aspect-ratio:16/9;height:auto;border:0;border-radius:10px;display:block;background:#000}
 table.spec{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px}
 table.spec th,table.spec td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}
 table.spec th{background:#f3efe8;width:32%;white-space:nowrap}
